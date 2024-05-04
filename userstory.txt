@@ -1,0 +1,10 @@
+User Story: Dice Generator
+
+As a user, I want to be able to choose different dice with different number of faces 
+(D6 or D9) by selecting from a dropdown list.
+
+1. User lands on the website.
+2. User selects a dice from the dropdown list (D6 or D9).
+3. User clicks on the "Roll" button.
+4. After 3 seconds, it will show a random face of the dice that user has selected.
+

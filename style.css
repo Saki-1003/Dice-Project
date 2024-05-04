@@ -1,0 +1,70 @@
+
+* {
+  box-sizing: border-box;
+  font-family: 
+}
+
+.dice-label {
+  font-size: 20px;
+}
+
+.btn {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+  background-color: rgb(55, 0, 255);
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 7px 20px;
+  margin-bottom: 10px;
+}
+
+main {
+  margin-left: 30px;
+}
+
+.dice-label {
+  padding-right: 10px;
+  font-size: 1.5rem;;
+}
+
+.wrapper {
+  display: flex;
+}
+
+#container {
+  width: 85px;
+  height: 85px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 4px;
+  
+}
+
+.dot {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+  opacity: 0;
+}
+
+
+.visible {
+  opacity: 1;
+}
+
+.number-cont {
+  text-align: center;
+}
+
+#number {
+  display: inline-block;
+  width: 85px;
+  height: 85px;
+  font-size: 60px;
+  font-weight: bold;
+  color: black;
+}
