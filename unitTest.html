@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dice Generator</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <h1>Dice Generator</h1>
+  <main>
+    <label for="6D" class="dice-label">6 sides</label>
+    <input name="6D" id="6D" onclick="dice(6);unitTest(6)" type="button" value="ROLL" class="btn"><br>
+    <label for="9D" class="dice-label">9 sides</label>
+    <input name="6D" id="9D" onclick="dice(9);unitTest(9)" type="button" value="ROLL" class="btn">
+
+    <div class="wrapper">
+      <div id="container"> 
+        <span class="dot" id="dot-1"></span>
+        <span class="dot" id="dot-2"></span>
+        <span class="dot" id="dot-3"></span>
+        <span class="dot" id="dot-4"></span>
+        <span class="dot" id="dot-5"></span>
+        <span class="dot" id="dot-6"></span>
+        <span class="dot" id="dot-7"></span>
+        <span class="dot" id="dot-8"></span>
+        <span class="dot" id="dot-9"></span> 
+      </div>
+      <div class="number-cont">
+        <span id="number"></span>
+      </div>
+    </div>
+  </main>
+  
+  <script src="dice-roll.js"></script>
+  <script src="unitTest.js"></script>
+
+</body>
+</html>
