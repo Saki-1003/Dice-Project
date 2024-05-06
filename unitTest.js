@@ -11,12 +11,7 @@
             element.classList.remove("visible")
         }
 
-  /*Unit Test*/
-  function unitTest(side){
-    if(elements.length >= side) {
-      console.log('false')
-    }
-  }
+
     document.getElementById('number').innerText = num
 
     if(num==1){
@@ -49,4 +44,13 @@
     }
   }
 
-
+  /*Unit Test*/
+     
+      function unitTest(side){
+        const elements = Array.from(document.getElementsByClassName("visible"))
+        console.log(elements)
+        if(elements.length <= side) {
+        console.log('true')
+        }
+      }
+  
